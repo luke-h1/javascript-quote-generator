@@ -10,10 +10,7 @@ var quotes = [
     "I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order.",
     "Every day, we change the world, but to change the world in a way that means anything, that takes more time than most people have. It never happens all at once. It\’s slow. It\’s methodical. It\’s exhausting. We don\’t all have the stomach for it." 
 ]
-
-
-
-
+ 
 function getQuote() { 
     var randomNumber = Math.floor(Math.random() * quotes.length) ; 
     document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber]; 
