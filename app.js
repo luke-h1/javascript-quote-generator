@@ -19,4 +19,5 @@ var quotes = [
 function getQuote() {
     var randomNumber = Math.floor(Math.random() * quotes.length);
     document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber];
+
 }
