@@ -16,9 +16,6 @@ var quotes = [
     "Now he's doing what all small animals do when they're scared, pretend they're bigger and scarier.",
 ] 
 
-
-function getQuote() { 
-    var randomNumber = Math.floor(Math.random() * quotes.length); 
-    
-    document.getElementById('quoteOutput').innerHTML = quotes[randomNumber]; 
-}
+function getQuote() {
+    var randomNumber = Math.floor(Math.random() * quotes.length);
+    document.getElementById('quoteOutput').innerHTML = quotes[randomNumber];
